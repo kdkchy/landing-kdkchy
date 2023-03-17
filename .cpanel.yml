@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/u1576174/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp index.css $DEPLOYPATH
+    - /bin/cp landing-kdkchy/index.html $DEPLOYPATH
+    - /bin/cp landing-kdkchy/index.css $DEPLOYPATH
