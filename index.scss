@@ -1,33 +1,55 @@
 body {
   overflow: hidden;
-    background: #02001f;
-    font-family: "Oswald", sans-serif;
+  background: #02001f;
+  font-family: "Oswald", sans-serif;
     
 }
 
 .overlaps {
-  // position: fixed;
-  // top: 25vw;
-  // z-index: 2;
-  // width: 100%;
   background: rgba(0, 0, 0, 0.6);
+}
+
+a {
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(255, 255, 255);
+  border-left: 3px solid magenta;
+  color: #02001f;
+  padding: 4px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  cursor: pointer;
+  // transition-duration: 0.1s;
+}
+
+a:hover {
+  border-left: 0px solid magenta;
+  border-right: 4px solid magenta;
+  animation: glitch 0.3s 0.3s infinite;
 }
 
 .text-hero {
     text-align: center;
     position: relative;
-  //   top: 50%;
-  // left: 50%;
     color: aqua;
     letter-spacing: 30px;
     font-style: italic;
 }
 
-
 .container {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 45%;
+  left: 50%;
+}
+
+.second-container {
+  z-index: 2;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 80%;
   left: 50%;
 }
 
